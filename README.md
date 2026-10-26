@@ -1,49 +1,46 @@
-# Chía Mora — Energía natural en cada cucharada
+# Delicia de Chía — Chía Mora
 
-Sitio web de presentación para **Delicia de Chía**, una miniempresa estudiantil de Quevedo dedicada a postres a base de chía. La página presenta el producto, sus características y la información del emprendimiento.
+## Descripción
 
-## Contenido del sitio
+Sitio web en HTML para presentar el producto **Chía Mora**, un postre a base de chía, fruta y otros ingredientes. La página incluye información del producto, beneficios, catálogo y secciones informativas accesibles desde el menú.
 
-- Presentación principal de la marca **Chía Mora**.
-- Sección de beneficios del producto.
-- Información sobre el producto e ingredientes.
-- Catálogo con productos y formatos.
-- Pasos de preparación.
-- Información nutricional aproximada.
-- Testimonios.
-- Código QR.
-- Información de la miniempresa: propósito, objetivo, misión y visión.
-- Sección de contacto mediante WhatsApp.
-- Contador de visitas visual.
-- Menú lateral y ventanas modales para consultar información.
+## Contenido y funciones
 
-## Tecnologías utilizadas
+- **Página principal:** presenta la marca y el producto.
+- **Beneficios:** sección informativa sobre el producto.
+- **El producto:** información de presentación del postre.
+- **¿Quiénes somos?:** presenta el propósito, objetivo, misión y visión de la miniempresa Delicia de Chía.
+- **Catálogo:** muestra información del producto y su presentación.
+- **Pasos de la preparación:** sección con instrucciones de preparación.
+- **Información nutricional aproximada:** apartado informativo sobre nutrición.
+- **Testimonios:** sección con comentarios de clientes.
+- **Hoja volante:** abre la imagen promocional proporcionada, integrada en el HTML.
+- **Contacto:** sección para comunicarse por WhatsApp.
 
-- **HTML5:** estructura y contenido de la página.
-- **CSS3:** diseño, colores, distribución adaptable y animaciones.
-- **JavaScript:** interacciones del menú, ventanas modales y otros elementos dinámicos.
-- **Google Fonts:** tipografías Fraunces y Work Sans.
+## Archivo principal
 
-## Diseño y compatibilidad
+- `index_editado.html`: página web con los cambios solicitados; la opción del menú se llama **Hoja volante** y muestra la imagen promocional en lugar del contenido anterior del QR.
 
-La página utiliza una paleta de tonos morados, crema y dorado. Incluye diseño adaptable a pantallas pequeñas y grandes, además de estilos para el modo oscuro del dispositivo.
+## Tecnologías
+
+- **HTML5** para la estructura de la página.
+- **CSS** integrado en el archivo para estilos y diseño adaptable.
+- **JavaScript** integrado para las interacciones del menú y las ventanas modales.
+- Imágenes incrustadas en el HTML mediante datos Base64, por lo que las imágenes incluidas no necesitan archivos separados.
 
 ## Cómo abrir el sitio
 
-1. Descarga o guarda el archivo `index.html`.
-2. Abre el archivo con un navegador web actualizado, como Google Chrome, Microsoft Edge o Firefox.
-3. Para ver las tipografías externas, conecta el dispositivo a internet.
+1. Descarga `index_editado.html`.
+2. Guarda el archivo en una carpeta de tu computadora.
+3. Haz doble clic en el archivo o ábrelo desde un navegador web, como Google Chrome, Microsoft Edge o Firefox.
+4. Usa el botón del menú para acceder a las distintas secciones.
+5. Selecciona **Hoja volante** para ver la imagen promocional.
 
-No necesita instalación ni un servidor para abrirse localmente en un navegador.
+## Personalización
 
-## Nota sobre el pago
+Para cambiar textos, busca el contenido correspondiente dentro de `index_editado.html`. Para actualizar la hoja volante, reemplaza la imagen incrustada en el apartado asociado a `modalQR` o al título **Hoja volante**, conservando la estructura HTML y los estilos.
 
-El formulario de pago incluido es **solo una demostración**. El propio código indica que no envía ni guarda los datos y que el resultado siempre es un error. No debe utilizarse para realizar pagos reales ni introducir datos bancarios reales.
+## Notas
 
-## Archivos
-
-- `index.html`: código completo del sitio web.
-- `README.md`: descripción del proyecto e instrucciones para abrirlo.
-
----
-Proyecto estudiantil: **Delicia de Chía / Chía Mora**.
+- El sitio se abre localmente en un navegador; no necesita un proceso de instalación o compilación para visualizarse.
+- Las funciones que dependan de servicios externos, como enlaces de contacto, requieren conexión a Internet.
